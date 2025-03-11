@@ -11,7 +11,7 @@ poetry --version
 ```
 
 ## 진행 순서
-1. `poetry init` # python version: ^3.10
+1. `poetry init` (python version: ^3.10)
 2. requirements.txt 파일에 버전표기 없이 필요한 패키지 작성
 3. pytorch_env 폴더에서 아래 명령어 실행
 ```
