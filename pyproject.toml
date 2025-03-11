@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "poetry-multi"
+version = "0.1.0"
+description = "Poetry multi-project"
+authors = ["Seong Yeonchan <ycseong07@haii.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
