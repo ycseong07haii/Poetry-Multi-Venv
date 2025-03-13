@@ -1,5 +1,4 @@
-tensorflow
 dependency-injector
 pydantic
-tqdm
-matplotlib 
+markdown
+jinja2 

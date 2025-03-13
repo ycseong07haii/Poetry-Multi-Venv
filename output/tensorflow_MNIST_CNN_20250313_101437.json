@@ -1,0 +1,18 @@
+{
+  "model_name": "MNIST_CNN",
+  "framework": "tensorflow",
+  "input_data": [
+    28,
+    28
+  ],
+  "output": [
+    4
+  ],
+  "metadata": {
+    "confidence": [
+      0.11987098306417465
+    ],
+    "device": "CPU",
+    "framework": "tensorflow"
+  }
+}

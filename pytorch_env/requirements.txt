@@ -1,4 +1,7 @@
 torch
 torchvision
 numpy
+dependency-injector
+pydantic
+tqdm
 matplotlib 

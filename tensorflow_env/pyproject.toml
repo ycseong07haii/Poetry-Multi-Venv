@@ -1,14 +1,21 @@
-[tool.poetry]
+[project]
 name = "tensorflow-env"
 version = "0.1.0"
-description = "TensorFlow environment"
-authors = ["Seong Yeonchan <ycseong07@haii.io>"]
+description = ""
+authors = [
+    {name = "Yeonchan Seong",email = "ycseong07@haii.io"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "tensorflow (>=2.19.0,<3.0.0)",
+    "dependency-injector (>=4.46.0,<5.0.0)",
+    "pydantic (>=2.10.6,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)"
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-tensorflow = "^2.18.0"
-matplotlib = "^3.10.1"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api" 
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

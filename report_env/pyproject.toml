@@ -1,21 +1,18 @@
 [tool.poetry]
-name = "pytorch-service"
+name = "report-service"
 version = "0.1.0"
-description = "PyTorch 기반 추론 서비스"
+description = "추론 결과 보고서 생성 서비스"
 authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
-packages = [{include = "pytorch_service"}]
+packages = [{include = "report_service"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 # 패키지는 requirements.txt에서 관리됩니다
-torch = "^2.6.0"
-torchvision = "^0.21.0"
-numpy = "^2.2.3"
 dependency-injector = "^4.46.0"
 pydantic = "^2.10.6"
-tqdm = "^4.67.1"
-matplotlib = "^3.10.1"
+markdown = "^3.7"
+jinja2 = "^3.1.6"
 
 [build-system]
 requires = ["poetry-core"]
