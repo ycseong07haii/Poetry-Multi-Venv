@@ -1,6 +1,6 @@
 # Poetry를 활용한 멀티 프로젝트 Python 애플리케이션
 
-이 프로젝트는 Poetry를 사용하여 여러 가상환경을 관리하고, Dependency Injector를 활용하여 서비스 간 의존성을 관리하는 멀티 프로젝트 Python 애플리케이션입니다.
+이 프로젝트는 Poetry를 사용하여 여러 가상환경을 관리하고, Dependency Injector를 활용하여 서비스 간 의존성을 관리하는 멀티 프로젝트 Python 애플리케이션입니다. **이 레포의 파일들과 README는 claude-3.7-sonnet 모델을 통해 작성되었습니다.**
 
 ## 프로젝트 구조
 
@@ -85,5 +85,3 @@ poetry add 라이브러리명 --lock
 1. **독립적인 가상환경**: 각 서비스는 자체 가상환경을 가지고 있어 패키지 충돌 없이 독립적으로 실행됩니다.
 2. **공통 모듈 공유**: 모든 서비스는 공통 모듈을 참조하여 코드 중복을 방지합니다.
 3. **Dependency Injection**: Dependency Injector를 사용하여 서비스 간 의존성을 관리합니다.
-4. **GPU 활용**: PyTorch와 TensorFlow 서비스는 GPU를 활용하여 추론을 수행합니다.
-5. **결과 통합**: 각 서비스의 결과를 JSON 파일로 저장하고, Report 서비스에서 이를 종합하여 마크다운 보고서를 생성합니다.
